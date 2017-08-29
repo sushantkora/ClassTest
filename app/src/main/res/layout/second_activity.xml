@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/kora">
+
+
+    <Button
+        android:id="@+id/button_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="25dp"
+        android:text="Button" />
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph_normal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/button_two"
+
+        />
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph_normalll"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/graph_normal"
+
+        />
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph_normallllll"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/graph_normalll"
+
+        />
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph_normalllooo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/graph_normallllll"
+
+        />
+</RelativeLayout>
